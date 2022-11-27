@@ -2,7 +2,13 @@ body{
   background-color: #FFF;
   margin-top: 0;
   padding-top: 0;
-  font-family: sans-serif;
+  font-family: 'HK Grotesk', sans-serif;
+}
+
+.Container{
+  color: grey; /* determines the color of subheadings */
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 /* MAIN COLOR TINTS */
@@ -10,7 +16,6 @@ body{
 .TintsContainer1 {
   width: 100%;
   height: 30%;
-  background-color: grey;   /* BORRAR LUEGO */
   padding-left: 10px;
 }
 
@@ -43,7 +48,6 @@ text-align: center;
 .TintsContainer2 {
   width: 100%;
   height: 30%;
-  background-color: thistle;   /* BORRAR LUEGO */
   padding-left: 10px;
 }
 
@@ -80,20 +84,20 @@ text-align: center;
   margin: 10px 10px 10px 10px;
   font-size: 50%;
   text-align: center;
+  color: snow;
 }
 
 /* GREYSCALE TINTS */
 .TintsContainer3 {
   width: 100%;
   height: 30%;
-  background-color: rgb(105, 248, 105);   /* BORRAR LUEGO */
   padding-left: 10px;
 }
 .greycolorcontainer1 {
   width: calc(7% - 44px);
   height: 50px;
   border: 1px solid grey;
-  background-color: lightslategrey;
+  background-color: snow;
   padding: 10px;
   float: left;
   margin: 10px 10px 10px 10px;
@@ -116,10 +120,60 @@ text-align: center;
   width: calc(7% - 44px);
   height: 50px;
   border: 1px solid grey;
-  background-color: darkslategrey;
+  background-color: black;
   padding: 10px;
   float: left;
   margin: 10px 10px 10px 10px;
   font-size: 50%;
   text-align: center;
+  color: snow;
 }
+
+/* MAIN BUTTONS */
+.btnStyled {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 0.7rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 5px;
+  background-color: blue;
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+              inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.btnStyled:hover {
+  background-color: lime;
+}
+
+.btnStyled:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+              inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+/* SECONDARY BUTTONS */
+.btnbtnStyled {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 0.7rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 5px;
+  background-color: slategrey;
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+              inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.btnbtnStyled:hover {
+  background-color: darkblue;
+}
+
+.btnbtnStyled:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+              inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
