@@ -5,6 +5,10 @@ body{
   font-family: 'HK Grotesk', sans-serif;
 }
 
+header {
+  margin-top: 3%;
+}
+
 .Container{
   color: grey; /* determines the color of subheadings */
   margin-top: 50px;
@@ -154,6 +158,11 @@ text-align: center;
 }
 
 /* SECONDARY BUTTONS */
+
+.btnbtn{
+  margin-bottom: 3%; /* determines the margin below the Secondary Buttons */
+}
+
 .btnbtnStyled {
   border: 0;
   line-height: 2.5;
