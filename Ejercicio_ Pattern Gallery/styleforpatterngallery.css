@@ -1,0 +1,39 @@
+body{
+    background-color: #FFF;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.colorcontainer1 {
+  width: calc(7% - 44px);
+  height: 50px;
+  border: 1px solid grey;
+  background-color: lime;
+  padding: 10px;
+  float: left;
+  margin: 10px 10px 10px 10px;
+  font-size: 50%;
+  text-align: center;
+}
+.colorcontainer2 {
+    width: calc(7% - 44px);
+    height: 50px;
+    border: 1px solid grey;
+    background-color: red;
+    padding: 10px;
+    float: left;
+    margin: 10px 10px 10px 10px;
+    font-size: 50%;
+    text-align: center;
+  }
+  .colorcontainer3 {
+    width: calc(7% - 44px);
+    height: 50px;
+    border: 1px solid grey;
+    background-color: blue;
+    padding: 10px;
+    float: left;
+    margin: 10px 10px 10px 10px;
+    font-size: 50%;
+    text-align: center;
+  }
