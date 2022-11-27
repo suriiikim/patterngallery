@@ -1,39 +1,125 @@
 body{
-    background-color: #FFF;
-    margin-top: 0;
-    padding-top: 0;
+  background-color: #FFF;
+  margin-top: 0;
+  padding-top: 0;
+  font-family: sans-serif;
 }
 
-.colorcontainer1 {
+/* MAIN COLOR TINTS */
+
+.TintsContainer1 {
+  width: 100%;
+  height: 30%;
+  background-color: grey;   /* BORRAR LUEGO */
+  padding-left: 10px;
+}
+
+.maincolorcontainer1 {
+width: calc(7% - 44px);
+height: 50px;
+border: 1px solid grey;
+background-color: lime;
+padding: 10px;
+float: left;
+margin: 10px 10px 10px 10px;
+font-size: 50%;
+text-align: center;
+}
+
+.maincolorcontainer2 {
   width: calc(7% - 44px);
   height: 50px;
   border: 1px solid grey;
-  background-color: lime;
+  background-color: blue;
   padding: 10px;
   float: left;
   margin: 10px 10px 10px 10px;
   font-size: 50%;
   text-align: center;
 }
-.colorcontainer2 {
+
+
+/* SECONDARY COLOR TINTS */
+.TintsContainer2 {
+  width: 100%;
+  height: 30%;
+  background-color: thistle;   /* BORRAR LUEGO */
+  padding-left: 10px;
+}
+
+.secondarycolorcontainer1 {
+  width: calc(7% - 44px);
+  height: 50px;
+  border: 1px solid grey;
+  background-color: red;
+  padding: 10px;
+  float: left;
+  margin: 10px 10px 10px 10px;
+  font-size: 50%;
+  text-align: center;
+}
+
+.secondarycolorcontainer2 {
     width: calc(7% - 44px);
     height: 50px;
     border: 1px solid grey;
-    background-color: red;
+    background-color: mediumblue;
     padding: 10px;
     float: left;
     margin: 10px 10px 10px 10px;
     font-size: 50%;
     text-align: center;
-  }
-  .colorcontainer3 {
+}
+.secondarycolorcontainer3 {
+  width: calc(7% - 44px);
+  height: 50px;
+  border: 1px solid grey;
+  background-color: darkblue;
+  padding: 10px;
+  float: left;
+  margin: 10px 10px 10px 10px;
+  font-size: 50%;
+  text-align: center;
+}
+
+/* GREYSCALE TINTS */
+.TintsContainer3 {
+  width: 100%;
+  height: 30%;
+  background-color: rgb(105, 248, 105);   /* BORRAR LUEGO */
+  padding-left: 10px;
+}
+.greycolorcontainer1 {
+  width: calc(7% - 44px);
+  height: 50px;
+  border: 1px solid grey;
+  background-color: lightslategrey;
+  padding: 10px;
+  float: left;
+  margin: 10px 10px 10px 10px;
+  font-size: 50%;
+  text-align: center;
+}
+
+.greycolorcontainer2 {
     width: calc(7% - 44px);
     height: 50px;
     border: 1px solid grey;
-    background-color: blue;
+    background-color: slategrey;
     padding: 10px;
     float: left;
     margin: 10px 10px 10px 10px;
     font-size: 50%;
     text-align: center;
-  }
+}
+.greycolorcontainer3 {
+  width: calc(7% - 44px);
+  height: 50px;
+  border: 1px solid grey;
+  background-color: darkslategrey;
+  padding: 10px;
+  float: left;
+  margin: 10px 10px 10px 10px;
+  font-size: 50%;
+  text-align: center;
+}
